@@ -9,8 +9,11 @@ import "aos/dist/aos.css";
 // slider css 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"; 
-import Slider from "./components/slider/Slider";
+
 import Banner from "./components/banner/Banner";
+import Contact from "./components/contact/Contact";
+import BestTabs from "./components/BestTab/BestTabs";
+import About from "./components/about/About";
 
 
 export default function Home() {
@@ -30,8 +33,11 @@ export default function Home() {
 
 
   return (
-   <div>
+   <div className="dark:bg-dark dark:text-white">
       <Banner /> 
+      <Contact /> 
+      <BestTabs />
+      <About />
 
    </div>
   );
