@@ -1,11 +1,12 @@
+import About from "../components/about/About";
+import AppStore from "../components/appStore/AppStore";
 
 
 export default function page() {
   return (
     <div>
-      <div>
-         <h2> About </h2>
-      </div>
+       <About />
+       <AppStore />
     </div>
   )
 }

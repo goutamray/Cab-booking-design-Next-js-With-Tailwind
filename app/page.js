@@ -14,6 +14,7 @@ import Banner from "./components/banner/Banner";
 import Contact from "./components/contact/Contact";
 import BestTabs from "./components/BestTab/BestTabs";
 import About from "./components/about/About";
+import AppStore from "./components/appStore/AppStore";
 
 
 export default function Home() {
@@ -38,6 +39,7 @@ export default function Home() {
       <Contact /> 
       <BestTabs />
       <About />
+      <AppStore />
 
    </div>
   );
