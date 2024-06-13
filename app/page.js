@@ -9,6 +9,8 @@ import "aos/dist/aos.css";
 // slider css 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"; 
+import Slider from "./components/slider/Slider";
+import Banner from "./components/banner/Banner";
 
 
 export default function Home() {
@@ -29,7 +31,7 @@ export default function Home() {
 
   return (
    <div>
-   
+      <Banner /> 
 
    </div>
   );

@@ -16,18 +16,19 @@ export default function ResponsiveMenu({ showMenu }) {
             <h2 className="text-sm text-slate-500 dark:text-gray-300"> Premium User </h2>
            </div>
         </div>
-        {/* menu part */}
 
+        {/* menu part */}
         <nav className="menu mt-12">
           <ul>
               {
-                    MenuList.map((item, index) => {
-                      return  <li key={index} className="py-4"> <Link href={item.link} className={` text-xl font-medium text-black dark:text-white py-2 `}> {item.name} </Link> </li>
+                 MenuList.map((item, index) => {
+                    return  <li key={index} className="py-4"> <Link href={item.link} className={` text-xl font-medium text-black dark:text-white py-2 `}> {item.name} </Link> </li>
                     })
                   }
           </ul>
         </nav>
       </div>
+      
       {/* bottom footer section */}
       <div>
         <h2> <a href="#"> Made By Goutam Ray <span className="text-red-500">  ❤ </span></a></h2>
