@@ -10,9 +10,9 @@ import { useState } from "react";
 import ResponsiveMenu from "./ResponsiveMenu";
 
 
-
 export default function Header() {
   const [showMenu, setShowMenu] = useState(false);
+
 
   // handle show hide menu 
   const handleShowHide = (() => {
@@ -38,7 +38,7 @@ export default function Header() {
                 <ul className="flex items-center gap-6 ">
                   {
                     MenuList.map((item, index) => {
-                      return  <li key={index} className="py-4"> <Link href={item.link} className={` text-lg font-medium text-black dark:text-white py-2 px-4 rounded-full hover:bg-primary duration-300`}> {item.name} </Link> </li>
+                      return  <li key={index} className="py-4"> <Link href={item.link} className={` text-lg font-medium text-black dark:text-white py-2 px-4 rounded-full hover:bg-primary duration-300`}> {item.name} </Link> </li> 
                     })
                   }
                   <DarkMode />   

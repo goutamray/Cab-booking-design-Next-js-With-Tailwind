@@ -15,6 +15,7 @@ import Contact from "./components/contact/Contact";
 import BestTabs from "./components/BestTab/BestTabs";
 import About from "./components/about/About";
 import AppStore from "./components/appStore/AppStore";
+import Testimonial from "./components/testimonial/Testimonial";
 
 
 export default function Home() {
@@ -32,7 +33,6 @@ export default function Home() {
    }, []); 
 
 
-
   return (
    <div className="dark:bg-dark dark:text-white">
       <Banner /> 
@@ -40,6 +40,7 @@ export default function Home() {
       <BestTabs />
       <About />
       <AppStore />
+      <Testimonial /> 
 
    </div>
   );

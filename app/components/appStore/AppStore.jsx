@@ -30,7 +30,7 @@ export default function AppStore() {
 
                 {/* right section  */}
                 <div>
-                  <Image  src={carBook} alt="carbook" className="max-w-[400px]"/>
+                  <Image  src={carBook} alt="carbook" className="max-w-[350px] md:max-w-[250px] md:p-5 lg:max-w-[400px]"/>
                 </div>
              </div>
 
