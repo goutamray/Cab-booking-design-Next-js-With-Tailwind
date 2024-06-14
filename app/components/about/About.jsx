@@ -18,7 +18,7 @@ const bgStyleBanner = {
 export default function About() {
   return ( 
     <div style={bgStyleBanner}>
-      <div className="text-white bg-black/80 min-h-[590px] flex items-center py-10 ">
+      <div className="text-white bg-black/80 min-h-[680px] flex items-center py-10 ">
          <div className="container">
              {/* header secion  */}
              <div className="space-y-2 uppercase text-center py-14">

@@ -1,6 +1,6 @@
-import play from "../../../public/play.png"
-import app from "../../../public/app.png"
-import carBook from "../../../public/carBooking.png"
+import play from "@/public/play.png"
+import app from "@/public/app.png"
+import carBook from "@/public/carbooking.png"
 import Image from "next/image"
 
 export default function AppStore() { 
