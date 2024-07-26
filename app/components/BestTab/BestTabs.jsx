@@ -1,9 +1,6 @@
-
-
-import { ServiceData } from "@/faker/data";
 import Image from "next/image";
 
-
+import { ServiceData } from "@/faker/data";
 
 export default function BestTabs() {
   return (

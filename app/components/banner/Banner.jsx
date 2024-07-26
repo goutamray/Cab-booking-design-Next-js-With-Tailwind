@@ -1,7 +1,8 @@
+import Image from "next/image";
 
+// images 
 import background1 from "../../../public/city.jpg";
 import car from "../../../public/car.png";
-import Image from "next/image";
 
 const bgStyle = {
   backgroundImage : `url(${background1.src}) `,

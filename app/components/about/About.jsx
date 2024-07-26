@@ -1,9 +1,11 @@
 
 import { FaRegStar } from "react-icons/fa";
 import banner from "../../../public/baner.jpg"
+
+// components 
 import BannerCard from "./BannerCard";
 
-
+// background image
 const bgStyleBanner = {
   backgroundImage : `url(${banner.src}) `,
   backgroundSize : "cover",

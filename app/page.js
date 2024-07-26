@@ -10,6 +10,7 @@ import "aos/dist/aos.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"; 
 
+// components 
 import Banner from "./components/banner/Banner";
 import Contact from "./components/contact/Contact";
 import BestTabs from "./components/BestTab/BestTabs";

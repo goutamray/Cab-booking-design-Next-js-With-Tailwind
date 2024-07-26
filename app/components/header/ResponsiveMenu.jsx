@@ -1,7 +1,7 @@
+import Link from "next/link";
 
 import { FaUserCircle } from "react-icons/fa";
 import { MenuList } from "@/faker/data";
-import Link from "next/link";
 
 export default function ResponsiveMenu({ showMenu }) {
   return (

@@ -1,24 +1,23 @@
 "use client"
 
-
-import { MenuList } from "@/faker/data";
+import ResponsiveMenu from "./ResponsiveMenu";
 import Link from "next/link";
 import DarkMode from "./DarkMode";
+import { useState } from "react";
+import { MenuList } from "@/faker/data";
+
+// react icons 
 import { HiMenuAlt3 } from "react-icons/hi";
 import { HiMenuAlt1 } from "react-icons/hi";
-import { useState } from "react";
-import ResponsiveMenu from "./ResponsiveMenu";
 
 
 export default function Header() {
   const [showMenu, setShowMenu] = useState(false);
 
-
   // handle show hide menu 
   const handleShowHide = (() => {
     setShowMenu(!showMenu); 
   }); 
-
 
 
   return (

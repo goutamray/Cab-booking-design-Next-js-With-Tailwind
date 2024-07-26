@@ -1,5 +1,4 @@
 
-
 export default function Contact() {
   return (
     <div className="bg-primary text-black sm:min-h-[600px] sm:grid sm:place-items-center pt-24 pb-20 sm:pb-0 ">

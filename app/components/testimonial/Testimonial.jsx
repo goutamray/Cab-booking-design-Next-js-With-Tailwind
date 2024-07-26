@@ -2,6 +2,8 @@
 import { TestimonialData } from "@/faker/data";
 import testimonial from "@/public/testimonial.png"
 import Image from "next/image";
+
+// slider 
 import Slider from "react-slick";
 
 const bgStyle = {
